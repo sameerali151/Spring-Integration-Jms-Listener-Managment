@@ -15,7 +15,7 @@ public class ListernerManagementController {
 
 	@Autowired
 	ApplicationContext context;
-
+// application get mapping
 	@GetMapping(value = "/command")
 	public String command(@RequestParam String adaptor, @RequestParam String command) {
 		
